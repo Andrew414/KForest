@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KForest", "KForest\KForest.pyproj", "{9AAEDDC0-E280-4010-B907-6192E88C765F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelperPercents", "HelperPercents\HelperPercents.csproj", "{A1F8308B-23A6-4566-A33F-76AE2C3C5AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge", "Merge\Merge.csproj", "{F4B928A9-DA22-41CC-AA22-1489D8BF62DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AAEDDC0-E280-4010-B907-6192E88C765F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AAEDDC0-E280-4010-B907-6192E88C765F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AAEDDC0-E280-4010-B907-6192E88C765F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AAEDDC0-E280-4010-B907-6192E88C765F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1F8308B-23A6-4566-A33F-76AE2C3C5AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F8308B-23A6-4566-A33F-76AE2C3C5AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F8308B-23A6-4566-A33F-76AE2C3C5AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F8308B-23A6-4566-A33F-76AE2C3C5AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B928A9-DA22-41CC-AA22-1489D8BF62DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B928A9-DA22-41CC-AA22-1489D8BF62DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B928A9-DA22-41CC-AA22-1489D8BF62DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B928A9-DA22-41CC-AA22-1489D8BF62DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
