@@ -14,7 +14,8 @@
     <RootNamespace>KForest</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <CommandLineArguments>&gt;answer.csv</CommandLineArguments>
+    <CommandLineArguments>
+    </CommandLineArguments>
     <InterpreterPath />
     <InterpreterArguments />
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
@@ -29,6 +30,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="KForest.py" />
+    <Compile Include="KGump.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

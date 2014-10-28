@@ -13,11 +13,11 @@ namespace HelperPercents
         {
 
             double prob = 0.1;
-            StreamReader read = new StreamReader("test.csv");
+            StreamReader read = new StreamReader(args[0]);
 
             Random rand = new Random(DateTime.Now.Millisecond);
 
-            StreamWriter write = new StreamWriter("test2.csv");
+            StreamWriter write = new StreamWriter(args[1]);
             write.WriteLine(read.ReadLine());
 
             while (!read.EndOfStream)
