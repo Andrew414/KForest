@@ -36,7 +36,7 @@ tr_features = ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10']
 ts_features = 'class'
 
 classifiers = [
-    KNeighborsClassifier(1),                                                    #  0
+    KNeighborsClassifier(1),                                                    #  0 - !
     KNeighborsClassifier(3),                                                    #  1
     KNeighborsClassifier(6),                                                    #  2
     SVC(kernel="linear", C=0.025),                                              #  3
@@ -46,12 +46,12 @@ classifiers = [
     SVC(gamma=2, C=1),                                                          #  7
     SVC(gamma=50, C=100),                                                       #  8
     DecisionTreeClassifier(max_depth=5),                                        #  9
-    DecisionTreeClassifier(max_depth=10),                                       # 10
+    DecisionTreeClassifier(max_depth=10),                                       # 10 - !
     SVC(gamma=2, C=1000),                                                       # 11
     SVC(gamma=2, C=100),                                                        # 12
     RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),       # 13
-    RandomForestClassifier(max_depth=10, n_estimators=10, max_features=1),      # 14
-    RandomForestClassifier(max_depth=10, n_estimators=50, max_features=5),      # 15
+    RandomForestClassifier(max_depth=10, n_estimators=10, max_features=1),      # 14 - !
+    RandomForestClassifier(max_depth=15, n_estimators=50, max_features=5),      # 15 - !
     AdaBoostClassifier(),                                                       # 16
     GaussianNB(),                                                               # 17
     MultinomialNB(),                                                            # 18
